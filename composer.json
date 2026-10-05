@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/doctrine-deprecations",
+    "description": "Tyhp type definitions for doctrine/deprecations 1.1.6.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.1.6",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/doctrine-deprecations-impl": "~1.1.6.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/doctrine-deprecations-impl"
+        }
+    }
+}
